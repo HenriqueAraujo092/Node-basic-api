@@ -10,3 +10,5 @@ git push https://HenriqueAraujo092@github.com/HenriqueAraujo092/Node-basic-api.g
 
 - Tudo que se coloca no require entre aspas simples sem um caminho definido, ele vai buscar na node modules
     exemplo: const express = require('express'); ---> /node_modules/express
+
+    parei em... Criando APIs com NodeJs - Aula 4: Normalizando a porta

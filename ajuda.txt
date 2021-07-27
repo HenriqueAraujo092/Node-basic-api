@@ -1,0 +1,2 @@
+- Iniciar projeto Node sempre dando um $ npm init -y (O -y é para aceitar todas as perguntas que ele faria na instalaçaõ)
+- Com isso ele cria nosso arquivo package.json

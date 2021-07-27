@@ -1,2 +1,10 @@
-- Iniciar projeto Node sempre dando um $ npm init -y (O -y é para aceitar todas as perguntas que ele faria na instalaçaõ)
-- Com isso ele cria nosso arquivo package.json
+- Iniciar projeto Node sempre dando um 
+    $ npm init -y (O -y é para aceitar todas as perguntas que ele faria na instalaçaõ)
+    - Com isso ele cria nosso arquivo package.json
+
+- Para que o projeto seja uma API precisa-se instalar 3 pacotes basicos usando esse comando...
+    $ npm install http express debug --save
+    - lembrar de colocar o --save para salvar as dependencias no package.json
+
+- Tudo que se coloca no require entre aspas simples sem um caminho definido, ele vai buscar na node modules
+    exemplo: const express = require('express'); ---> /node_modules/express
